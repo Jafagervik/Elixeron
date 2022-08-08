@@ -2,7 +2,66 @@
 name = "Elixeron"
 version = "0.1.0"
 edition = "2021"
+authors = ["Jørgen Aleksander Fagervik <jorgenafagervik@gmail.com>"]
+
+description = "Testing rust"
+repository = "https://github.com/Jafagervik/Elixeron.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bit-vec = "0.6.3"
+serde = "1.0.142"
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "d1"
+path = "src/bin/day1.rs"
+
+[[bin]]
+name = "d2"
+path = "bin/day2.rs"
+
+[[bin]]
+name = "d3"
+path = "src/bin/day3.rs"
+
+[[bin]]
+name = "d4"
+path = "bin/day4.rs"
+
+[[bin]]
+name = "d5"
+path = "bin/day5.rs"
+
+[[bin]]
+name = "d6"
+path = "bin/day6.rs"
+
+[[bin]]
+name = "d7"
+path = "bin/day7.rs"
+
+[[bin]]
+name = "d8"
+path = "bin/day8.rs"
+
+[[bin]]
+name = "d9"
+path = "bin/day9.rs"
+
+[[bin]]
+name = "d10"
+path = "bin/day10.rs"
+
+[[bin]]
+name = "d11"
+path = "bin/day11.rs"
+
+[[bin]]
+name = "d12"
+path = "bin/day12.rs"
+
